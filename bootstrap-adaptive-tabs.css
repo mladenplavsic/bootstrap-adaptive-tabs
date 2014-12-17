@@ -17,7 +17,6 @@
         position: static;
     }
     .nav.nav-tabs.bs-adaptive-tabs li:nth-child(n+6) {
-        position: relative;
         visibility: hidden;
         float: right;
         clear: right;
@@ -55,11 +54,7 @@
         position: absolute;
         top: 100%;
         left: 0;
-        width: 100%;
-        background: #ffffff;
-        text-align: center;
         padding: 10px 15px;
-        z-index: 0;
     }
     .nav.nav-tabs.bs-adaptive-tabs li.active a label {
         visibility: visible;
