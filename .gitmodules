@@ -1,0 +1,3 @@
+[submodule "bootstrap-adaptive-tabs"]
+	path = bootstrap-adaptive-tabs
+	url = https://github.com/mladenplavsic/bootstrap-adaptive-tabs
