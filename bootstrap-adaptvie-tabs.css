@@ -1,0 +1,68 @@
+.nav.nav-tabs li a label {
+    font-weight: normal;
+}
+
+
+@media (max-width: 768px) {
+
+
+    .nav.nav-tabs {
+        position: relative;
+        height: 45px;
+        margin-bottom: 50px;
+    }
+
+
+    .nav.nav-tabs li {
+        position: static;
+    }
+    .nav.nav-tabs li:nth-child(n+6) {
+        visibility: hidden;
+        float: right;
+        clear: right;
+        z-index: 10;
+    }
+    .nav.nav-tabs li:nth-child(-n+5) {
+        width: 16.6%; /*  100/(5+1)  */
+        text-align: center;
+    }
+    .nav.nav-tabs li:nth-child(6) {
+        margin-top: 45px;
+    }
+    .nav.nav-tabs li:nth-child(5):after {
+        content: "\f142";
+        font-family: "FontAwesome";
+        cursor: pointer;
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 10px 15px;
+    }
+    .nav.nav-tabs:hover li {
+        visibility: visible;
+    }
+
+
+    .nav.nav-tabs li a {
+        position: static;
+    }
+
+
+    .nav.nav-tabs li a label {
+        visibility: hidden;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: #ffffff;
+        text-align: center;
+        padding: 10px 15px;
+        z-index: -1;
+    }
+    .nav.nav-tabs li.active a label {
+        visibility: visible;
+    }
+
+
+}
