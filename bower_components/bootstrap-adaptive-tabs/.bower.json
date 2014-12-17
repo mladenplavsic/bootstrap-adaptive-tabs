@@ -1,0 +1,14 @@
+{
+  "name": "bootstrap-adaptive-tabs",
+  "homepage": "https://github.com/mladenplavsic/bootstrap-adaptive-tabs",
+  "_release": "2e06932f76",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "2e06932f76b7923a90d298e0811d699a7f1b1969"
+  },
+  "_source": "git@github.com:mladenplavsic/bootstrap-adaptive-tabs.git",
+  "_target": "*",
+  "_originalSource": "git@github.com:mladenplavsic/bootstrap-adaptive-tabs.git",
+  "_direct": true
+}
