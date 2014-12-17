@@ -28,7 +28,7 @@
         text-align: center;
     }
     .nav.nav-tabs.bs-adaptive-tabs li:nth-child(6) {
-        margin-top: 45px;
+        margin-top: 44px;
     }
     .nav.nav-tabs.bs-adaptive-tabs li:nth-child(5):after {
         content: "\f142";
@@ -47,6 +47,13 @@
 
     .nav.nav-tabs.bs-adaptive-tabs li a {
         position: static;
+    }
+    .nav.nav-tabs.bs-adaptive-tabs li:nth-child(n+6) a {
+        background-color: #fff;
+        border-color: #ddd;
+        border-radius: 0;
+        margin-top: 0;
+        margin-right: 0;
     }
 
 
