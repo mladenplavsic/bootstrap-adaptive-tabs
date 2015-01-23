@@ -1,4 +1,4 @@
-# Pure CSS Bootstrap adaptive tabs
+# Pure CSS (no JavaScript) Bootstrap adaptive tabs
 
 ## Extending Bootstrap tabs functionality to make all extra tabs available through dropdown "More tabs" if there is no room for them
 
