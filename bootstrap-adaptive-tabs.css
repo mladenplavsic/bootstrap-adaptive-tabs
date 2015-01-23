@@ -10,6 +10,7 @@
         position: relative;
         height: 45px;
         margin-bottom: 50px;
+        outline: none;
     }
 
 
@@ -40,7 +41,7 @@
         right: 0;
         padding: 10px 15px;
     }
-    .nav.nav-tabs.bs-adaptive-tabs:hover li {
+    .nav.nav-tabs.bs-adaptive-tabs:focus:hover li {
         visibility: visible;
     }
 
