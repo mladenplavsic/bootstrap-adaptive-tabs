@@ -23,6 +23,7 @@
         clear: right;
         z-index: 10;
         margin-left: -100%;
+        transition: visibility .3s;
     }
     .nav.nav-tabs.bs-adaptive-tabs li:nth-child(-n+5) {
         width: 16.6%; /*  100/(5+1)  */
